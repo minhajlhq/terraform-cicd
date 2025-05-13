@@ -40,9 +40,9 @@ aws dynamodb create-table \
   --billing-mode PAY_PER_REQUEST
 
 
-  ## 📸 Screenshots
+ ## 📸 Screenshots
 
-### GitHub Actions - Workflow Runs
+### GitHub Actions – Workflow Runs
 
 Shows that the CI/CD pipeline is automatically triggered on push.
 
@@ -50,9 +50,9 @@ Shows that the CI/CD pipeline is automatically triggered on push.
 
 ---
 
-### CI/CD Pipeline - Terraform Commands
+### CI/CD Pipeline – Terraform Commands
 
-This run shows the pipeline running `terraform init`, `plan`, and `apply` through GitHub Actions.
+This run shows the pipeline running `terraform init`, `plan`, and `apply`.
 
 ![Terraform Steps](./screenshots/pipeline-steps.png)
 
@@ -60,7 +60,7 @@ This run shows the pipeline running `terraform init`, `plan`, and `apply` throug
 
 ### S3 Buckets Created by Terraform
 
-The infrastructure was provisioned using Terraform. You can see both the main S3 bucket and the backend state bucket created in AWS.
+You can see both the application S3 bucket and the backend state bucket created in AWS.
 
 ![S3 Buckets](./screenshots/aws-s3-bucket.png)
 
@@ -71,10 +71,3 @@ The infrastructure was provisioned using Terraform. You can see both the main S3
 Shows the `terraform-locks` table used by Terraform to manage backend state locking.
 
 ![DynamoDB Lock Table](./screenshots/dynamodb-lock-table.png)
-
-
----
-
-Author
-  Minhaj
-GitHub: @minhajlhq
