@@ -71,3 +71,10 @@ The infrastructure was provisioned using Terraform. You can see both the main S3
 Shows the `terraform-locks` table used by Terraform to manage backend state locking.
 
 ![DynamoDB Lock Table](./screenshots/dynamodb-lock-table.png)
+
+
+
+
+Author
+  Minhaj
+GitHub: @minhajlhq
