@@ -54,7 +54,10 @@ Shows that the CI/CD pipeline is automatically triggered on push.
 
 This run shows the pipeline running `terraform init`, `plan`, and `apply`.
 
-![Terraform Steps](./screenshots/pipeline-steps.png)
+<img width="1434" alt="Image" src="https://github.com/user-attachments/assets/ca0902fb-a8a0-4897-9d69-e31d525852d5" />
+<img width="1416" alt="Image" src="https://github.com/user-attachments/assets/63fd8fcd-8686-483c-8906-55643b24b5eb" />
+<img width="1414" alt="Image" src="https://github.com/user-attachments/assets/fc7bc6d7-d78f-4324-b2fd-b4654a0bb683" />
+<img width="1399" alt="Image" src="https://github.com/user-attachments/assets/0113c7eb-0b4c-49b2-905a-1b8ecf7103c9" />
 
 ---
 
