@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "demo" {
   bucket = var.s3_bucket_name
 
   tags = {
-    Name        = "CI/CD Demo"
+    Name        = "CI/CD Test Bucket"
     Environment = "Dev"
   }
 }
