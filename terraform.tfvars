@@ -1,0 +1,1 @@
+s3_bucket_name = "minhaj-ci-cd-demo-bucket-001"
