@@ -38,3 +38,36 @@ aws dynamodb create-table \
   --attribute-definitions AttributeName=LockID,AttributeType=S \
   --key-schema AttributeName=LockID,KeyType=HASH \
   --billing-mode PAY_PER_REQUEST
+
+
+  ## 📸 Screenshots
+
+### GitHub Actions - Workflow Runs
+
+Shows that the CI/CD pipeline is automatically triggered on push.
+
+![GitHub Actions](./screenshots/github-actions-run.png)
+
+---
+
+### CI/CD Pipeline - Terraform Commands
+
+This run shows the pipeline running `terraform init`, `plan`, and `apply` through GitHub Actions.
+
+![Terraform Steps](./screenshots/pipeline-steps.png)
+
+---
+
+### S3 Buckets Created by Terraform
+
+The infrastructure was provisioned using Terraform. You can see both the main S3 bucket and the backend state bucket created in AWS.
+
+![S3 Buckets](./screenshots/aws-s3-bucket.png)
+
+---
+
+### DynamoDB Table for State Locking
+
+Shows the `terraform-locks` table used by Terraform to manage backend state locking.
+
+![DynamoDB Lock Table](./screenshots/dynamodb-lock-table.png)
