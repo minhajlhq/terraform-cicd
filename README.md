@@ -46,7 +46,7 @@ aws dynamodb create-table \
 
 Shows that the CI/CD pipeline is automatically triggered on push.
 
-![GitHub Actions](./screenshots/github-actions-run.png)
+![GitHub Actions](screenshots/github-actions-run.png)
 
 ---
 
