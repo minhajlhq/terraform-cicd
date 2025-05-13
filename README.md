@@ -73,7 +73,7 @@ Shows the `terraform-locks` table used by Terraform to manage backend state lock
 ![DynamoDB Lock Table](./screenshots/dynamodb-lock-table.png)
 
 
-
+---
 
 Author
   Minhaj
